@@ -1,9 +1,8 @@
 .body {
-  background: rgb(255, 255, 255);
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 20px;
-  
+  background: rgb(255, 255, 255);
 }
 
 .h1 {
@@ -36,7 +35,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 100%;
-  padding: 95px 50px 100px;  
+  padding: 95px 50px 100px;
 }
 
 .header__links-list {
@@ -162,18 +161,18 @@
 
 .lots {
   width: 100%;
-  margin: 0 24px 120px;
+  margin: 0 0 120px;
 }
 
 .lots__heading {
-  margin: 0 0 24px 40px;
+  margin: 0 0 24px 64px;
 }
 
 .lots__card-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: flex-start;
   gap: 25px;
   margin-bottom: 30px;
@@ -246,7 +245,7 @@
 }
 
 .lots__look-more-link {
-  margin-left: 40px;
+  margin-left: 64px;
   border-bottom: 1px solid rgb(0 0 0);
   color: rgb(0 0 0);
 }
