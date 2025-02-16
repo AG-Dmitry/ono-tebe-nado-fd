@@ -64,39 +64,52 @@
     <main class="main">
       <section class="cover">
         <div class="overlay"></div>
-        <h1 class="h1 cover__title">
-          <span class="aligned-text">
-            Оно
-          </span>
-          <span class="aligned-text_center">
-            тебе
-          </span>
-          <span class="aligned-text_right">
-            надо
-          </span>
+        <div class="cover__title">
+          <h1 class="h1">
+            <span class="aligned-text">
+              Оно
+            </span>
+            <span class="aligned-text_center">
+              тебе
+            </span>
+            <span class="aligned-text_right">
+              надо
+            </span>
         </h1>
+        </div>
         <div class="cover__description">
           <p class="cover__description-text">
-            Аукцион вещей, вкоторые никто не верил
+            Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">
+          <button
+            class="bet-button"
+            type="button"
+          >
             Сделать ставку
           </button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="h2 lots__heading">Лоты</h2>
+        <div class="lots__heading">
+          <h2 class="h2">
+            Лоты
+          </h2>
+        </div>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link">
-              <div class="card card_type_film">
+              <div class="card card_type_picture">
                 <div class="overlay"></div>
-                <h3 class="h3 card__title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
+                <div class="card__title">
+                  <h3 class="h3">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+                </div>
                 <p class="p card__text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
-                  если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+                  похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+                  Сколько бы вы на такое поставили, если бы не знали, что это —
+                  одна из революционных работ Кандинского?
                 </p>
               </div>
             </a>
@@ -105,9 +118,11 @@
             <a class="card-link">
               <div class="card card_type_book">
                 <div class="overlay"></div>
-                <h3 class="h3 card__title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
+                <div class="card__title">
+                  <h3 class="h3">
+                    Книга, где описан один скучный день из жизни рекламного агента
+                  </h3>
+                </div>
                 <p class="p card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно рассказывается
@@ -120,16 +135,16 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card-link">
-              <div class="card card_type_picture">
+              <div class="card card_type_film">
                 <div class="overlay"></div>
-                <h3 class="h3 card__title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
+                <div class="card__title">
+                  <h3 class="h3">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                </div>
                 <p class="p card__text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-                  похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-                  Сколько бы вы на такое поставили, если бы не знали, что это —
-                  одна из революционных работ Кандинского?
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
+                  если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
               </div>
             </a>
@@ -150,9 +165,11 @@
           </div>
         </div>
         <div class="about__column">
-          <h2 class="h2 about__title">
-            Об аукционе
-          </h2>
+          <div class="about__title">
+            <h2 class="h2">
+              Об аукционе
+            </h2>
+          </div>
           <p class="p about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого
             антиквариата. Наши лоты вообще не должны были попасть ни&nbsp;на один
